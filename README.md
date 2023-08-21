@@ -10,6 +10,16 @@
 ![Last commit](https://img.shields.io/github/last-commit/mendes-jv/libft?color=dark-green)
 </div>
 
+---
+
+<div align = center>
+
+![](https://game.42sp.org.br/static/assets/achievements/libftm.png)
+
+[![roglopes's 42 Libft Score](https://badge42.vercel.app/api/v2/clljwl4dk005408mn48ta77wy/project/3196037)](https://github.com/JaeSeoKim/badge42)
+
+</div>
+
 This is the entry project at [École 42](https://www.youtube.com/watch?v=GDHhpy9ANpk&ab_channel=42TheNetwork), in which students are challenged to recreate a set of functions from the classic standardised libC, and other supplementary functions. These functions will then be used throughout the school's curriculum, instead of the standard ones. Students are also welcome to incorporate their own functinos to their libft as needs arrise for the course of the curriculum.
 
 The bonus part of this project comprises functions for the manipulation of singly linked lists.
