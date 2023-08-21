@@ -44,20 +44,6 @@ ft_lstclear | void ft_lstclear()t_list **lst, void (*del)(void *); | Frees the c
 ft_lstiter | void ft_lstiter(t_list *lst, voif (*f)(void *)); | Applies the function 'f' to the content in each node of the list 'lst'.
 ft_lstmap | t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *)); | Returns a copy of the list 'lst', with the function 'f' applied to the content of each node. Uses the function 'del' to delete the content of a node if necessary.
 
-Finally, the functions listed below are either part of other projects, or were developed in my spare time and later added to this library.
-Function name | Prototype | Description
-:-----------: | :----------- | :-----------
-ft_btox | char *ft_btox(void *ptr, size_t size); | Allocates with ``malloc`` and returns the string hexadecimal representation of the value stored in the memory buffer of size passed as parameter at offset 'ptr'.
-ft_print_memory | ft_print_memory(const void *addr, size_t size); | Prints 'size' lines of the memory area pointed to by 'addr', 16 bytes per line. The output is divided into three columns: 1) the address offset, 2) the content of each address, in hexadecimal, 3) the content in printable characters. Non-printable characters are replaced by '.' in the 3rd column. If 'addr' is a ``NULL`` pointer, 'size' lines will be printed with the address offset represented as '0x0000000000000000' and both the hex and printable representations of each address as '.'.
-get_next_line | get_next_line(int fd); | Reads a file from its descriptor and returns each individual line. This function is made to be used iteratively, so that each call will always return the next line until the end of file.
-ft_uitoa | ft_uitoa(unsigned int n); | Allocates with ``malloc`` and returns a string representation of the unsigned integer received as an argument.
-ft_abs | int ft_abs(int nbr) | Returns the absloute value of 'nbr'.
-ft_max_i | int ft_max_i(int num_a, int num_b) | Returns the largest value between 'num_a' and 'num_b'.
-ft_min_i | int ft_min_i(int num_a, int num_b) | Returns the smallest value between 'num_a' and 'num_b'.
-ft_str_is_int | bool ft_str_is_int(char *str) | Returns ``true`` if the string 'str' represents a valid ``int`` value; false if otherwise.
-ft_free_split | void ft_free_split(char **split) | Frees heap memory allocated into 'split'.
-ft_strreplace | char *ft_strreplace(char *str, int index, int torem, char *torepl) | creates a copy of ``str`` with ``malloc``, where ``torem`` bytes are replaced with the string ``torepl`` at offset ``index``
-
 ## Compilation instructions
 The Makefile is currently configured to compile all parts of the project with `make all`. \
 However, the recipes for each part are segregated, in order to make the addition and/or removal of additional functions more convenient when using libft in other projects.
