@@ -1,7 +1,7 @@
 
 <div align = center>
 
-# Libft-42sp
+# :books: Libft | 42 SP
 
 ![42 São Paulo](https://img.shields.io/badge/42-SP-1E2952)
 ![License](https://img.shields.io/github/license/mendes-jv/libft?color=dark-green)
@@ -18,43 +18,107 @@
 
 [![roglopes's 42 Libft Score](https://badge42.vercel.app/api/v2/clljwl4dk005408mn48ta77wy/project/3196037)](https://github.com/JaeSeoKim/badge42)
 
-</div>
+- Actual Status : finished.
+- Result        : evaluation in progress.
 
-This is the entry project at [École 42](https://www.youtube.com/watch?v=GDHhpy9ANpk&ab_channel=42TheNetwork), in which students are challenged to recreate a set of functions from the classic standardised libC, and other supplementary functions. These functions will then be used throughout the school's curriculum, instead of the standard ones. Students are also welcome to incorporate their own functinos to their libft as needs arrise for the course of the curriculum.
+The libft (42 Library) is the first project in the software engineering curriculum at 42 São Paulo. The objective of the project is to create your first C library by re-creating functions from the standard C library. During the project, you will learn how these functions work, how to implement them, and how to use each one. To submit the project, you must create a Makefile that compiles your library without relinking.
 
-The bonus part of this project comprises functions for the manipulation of singly linked lists.
+Upon completing the mandatory part of the project, you are encouraged to do the bonus part, which involves learning about linked lists, how to create them, and how to manipulate them.
 
-This project is also the first contact we have with `make` and `Makefile`, and besides the source code for each function and a Makefile, another deliverable is the static library file `libft.a`.
+## 📝 Functions
 
-The functions below behave as follows:
-Function name | Prototype | Description
-:-----------: | :----------- | :-----------
-ft_substr | char *ft_substr(const char *s, unsigned int start, size_t len); | Allocates with `malloc` and returns a substring from the string 's', beginning at index 'start' and with maximum size 'len'.
-ft_strjoin | char *ft_strjoin(const char *s1, const char *s2); | Allocates with ``malloc`` and returns a new string resulting from the concatenation of strings 's1' and 's2'.
-ft_strtrim | char *ft_strtrim(const char *s1, const char *set); | Allocates with `malloc` and returns a copy of the string 's1' with the characters provided in 'set' removed from the beginning and end of the string.
-ft_split | char **ft_split(const char *s, char c); | Allocates with `malloc` and returns an array of strings where each word 's' is assigned to each index of the array, with the character 'c' acting as a separator between the words in 's'. The final element of the array is a NULL pointer.
-ft_itoa | char *ft_itoa(int n); | Allocates with `malloc` and returns a string representation of the integer received as an argument.
-ft_strmapi | char *ft_strmapi(const char *s, char (*f)(unsigned int, char)); | Allocates with `malloc` and returns a string resulting from the application of the function 'f' to each character of the string 's'.
-ft_striteri | void ft_striteri(char *s, void (*f)(unsigned int, char*)); | Applies the function 'f' to each index of the string 's'.
-ft_putchar_fd | void ft_putchar_fd(char c, int fd); | Outputs the character 'c' to the file descriptor 'fd'.
-ft_putstr_fd | void ft_putstr_fd(char *s, int fd); | Outputs the string 's' to the file descriptor 'fd'.
-ft_putendl_fd | void ft_putendl_fd(char *s, int fd); | Outputs the string 's' to the file descriptor 'fd', followed by a newline.
-ft_putnbr_fd | void ft_putnbr_fd(int n, int fd); | Outputs the integer 'n' to the file descriptor 'fd'.
+| Function | Description |
+| :------: | :---------: |
+| ``ft_atoi`` | Converts the initial portion of the string pointed to by ``nptr`` to int. |
+| ``ft_bzero`` | Sets the first ``n`` chars of a string ``s`` to zero ``\0``. |
+| ``ft_calloc`` | Allocates memory for an array of 'nmemb' elements of 'size' bytes, and set to zero. |
+| ``ft_isalnum`` | Returns ``1`` if the input is a alphanumeric character from the ``ASCII`` table. |
+| ``ft_isalpha`` | Returns ``1`` if the input is a alphabetical character from the ``ASCII`` table. |
+| ``ft_isascii`` | Returns ``1`` if the input is in the ``ASCII`` table. |
+| ``ft_isdigit`` | Returns ``1`` if the input is a digit character from the ``ASCII`` table. |
+| ``ft_isprint`` | Returns ``1`` if the input is a printable character from the ``ASCII`` table. |
+| ``ft_itoa`` | Allocates with malloc and returns a string representing the integer received as an argument, negative numbers must be handled. |
+| ``ft_memccpy`` | Copies from one memory point to another, until the specified character is copied or until ``n`` bytes are copied. |
+| ``ft_memchr`` | Scans the initial ``n`` bytes of the memory area pointed to by ``s`` for the first instance of ``c``. |
+| ``ft_memcmp`` | Compares the first ``n`` bytes, each interpreted as unsigned char, of the memory areas ``s1`` and ``s2``. |
+| ``ft_memcpy`` | Copies ``n`` bytes from memory area ``src`` to memory area ``dest``, the memory areas must not overlap. |
+| ``ft_memmove`` | Copies ``n`` bytes from memory area ``src`` to memory area ``dest``, cases of memory overlap must be handled. |
+| ``ft_memset`` | Fills the first ``n`` bytes of the memory area pointed to by ``s`` with the int ``c``. |
+| ``ft_putchar_fd`` | Outputs the character ``c`` to the given file descriptor. |
+| ``ft_putendl_fd`` | Outputs the string ``s`` to the given file descriptor followed by a newline. |
+| ``ft_putnbr_fd`` | Outputs the integer ``n`` to the given file descriptor. |
+| ``ft_putstr_fd`` | Outputs the string ``s`` to the given file descriptor. |
+| ``ft_split`` | Allocates with malloc and returns an array of strings obtained by splitting ``s`` using the character ``c`` as a delimiter. |
+| ``ft_strchr`` | Looks for the first occurrence of the character ``c`` in the string ``s``. |
+| ``ft_strdup`` | Allocates with malloc and duplicate the contents of string ``s``. |
+| ``ft_striteri`` | Applies the function ``f`` on each character of the string passed as argument. |
+| ``ft_strjoin`` | Allocates with malloc and returns a new string, which is the result of the concatenation of ``s1`` and ``s2``. |
+| ``ft_strlcat`` | Appends the NUL-terminated string ``src`` to the end of ``dst``. |
+| ``ft_strlcpy`` | Copies ``size - 1`` characters from the NUL-terminated string ``src`` to ``dst``, NUL-terminating the result. |
+| ``ft_strlen`` | Returns the length of the string, before the terminating null byte ``\0`` can be found. |
+| ``ft_strmapi`` | Create a new string with malloc resulting from successive applications of ``f``. |
+| ``ft_strncmp`` | Compares only the first (at most) n bytes of two strings, ``s1`` and ``s2``. |
+| ``ft_strnstr`` | Locates the first occurrence of the null-terminated string ``little`` in the string ``big``, where not more than ``len`` characters are searched. Characters that appear after a ``\0`` are not searched. |
+| ``ft_strrchr`` | Looks for the last occurrence of the character ``c`` in the string ``s``. |
+| ``ft_strtrim`` | Allocates with malloc and returns a copy of ``s1`` with the characters specified in ``set`` removed from the beginning and the end of the string. |
+| ``ft_substr`` | Allocates with malloc and returns a substring from the string ``s``. The substring begins at index ``start`` and is of maximum size ``len``. |
+| ``ft_tolower`` | Convert uppercase letters to lowercase. |
+| ``ft_toupper`` | Convert lowercase letters to uppercase. |
 
-The following functions are part of the Bonus section of the project and use the data structure declared in libft.h.
-Function name | Prototype | Description
-:-----------: | :----------- | :-----------
-ft_lstnew | t_list *ft_lstnew(void *content); | Allocates a new node with `malloc` and initializes its member variable 'content' with the value of the parameter 'content'.
-ft_lstadd_front | void ft_lstadd_front(t_list **lst, t_list *new); | Adds the node 'new' to the start of the list 'lst'
-ft_lstadd_back | void ft_lstadd_back(t_list **lst, t_list *new); | Adds the node 'new' to the end of the list 'lst'
-ft_lstsize | int ft_lstsize(t_list *lst); | Returns the total number of nodes in the list 'lst'
-ft_lstlast | t_list *ft_lstlast(t_list *lst): | Returns a pointer to the last node of the list.
-ft_lstdelone | void ft_lstdelone(t_list *lst, void (*del)(void *)); | Frees the content of the node provided as parameter with the function 'del' and then frees the node itself.
-ft_lstclear | void ft_lstclear()t_list **lst, void (*del)(void *); | Frees the content of every node in the list 'lst' with the function 'del', and then frees all the nodes. The pointer to the list is set to NULL.
-ft_lstiter | void ft_lstiter(t_list *lst, voif (*f)(void *)); | Applies the function 'f' to the content in each node of the list 'lst'.
-ft_lstmap | t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *)); | Returns a copy of the list 'lst', with the function 'f' applied to the content of each node. Uses the function 'del' to delete the content of a node if necessary.
+## :star: Bonus
+For this part we implemented a struct defining the well-known linked lists
+```C
+typedef	struct	s_list
+{
+	void		*content;
+	struct	s_list	*next;
+}			t_list;
+```
+
+Bonus functions to implement
+
+| Bonus Function | Description |
+| :------------: | :---------: |
+| ``ft_lstnew`` | Allocates with malloc and returns a new node. |
+| ``ft_lstadd_front`` | Adds the node ``new`` at the beginning of the list. |
+| ``ft_lstsize`` | Counts the number of nodes in a list. |
+| ``ft_lstlast`` | Returns the last node of the list. |
+| ``ft_lstadd_back`` | Adds the node ``new`` at the end of the list. |
+| ``ft_lstdelone`` | Takes as a parameter a node and frees the memory of the node’s content. The memory of ``next`` must not be freed. |
+| ``ft_lstclear`` | Deletes and frees the given node and every successor of that node and set the pointer to the list with NULL. |
+| ``ft_lstiter`` | Iterates the list ``lst`` and applies the function ``f`` on the content of each node. |
+| ``ft_lstmap`` | Creates a new list resulting of the successive applications of the function ``f``. Use ``del`` if you need to delete the content. |
+
+## 🛠️ Usage
 
 ## Compilation instructions
 The Makefile is currently configured to compile all parts of the project with `make all`. \
 However, the recipes for each part are segregated, in order to make the addition and/or removal of additional functions more convenient when using libft in other projects.
+
+## How to use
+
+Clone this repository:
+```shell
+$ git clone https://github.com/RogerioLS/Libft-42sp.git
+```
+
+Run `make` on it:
+```shell
+$ make
+```
+
+If you want to use linked lists, run `make bonus`:
+```shell
+$ make bonus
+```
+
+Include `libft.h` in your `.c`:
+```c
+#include "../include/libft.h"
+```
+
+Compile your `.c` with the library:
+```shell
+$ cc my_program.c libft.a
+```
 
