@@ -1,13 +1,17 @@
-
 <div align = center>
 
 # :books: Libft | 42 SP
 
+![Static Badge](https://img.shields.io/badge/LIBFT--blue)
 ![42 São Paulo](https://img.shields.io/badge/42-SP-1E2952)
-![License](https://img.shields.io/github/license/mendes-jv/libft?color=dark-green)
-![Code size in bytes](https://img.shields.io/github/languages/code-size/mendes-jv/libft?color=dark-green)
-![Top language](https://img.shields.io/github/languages/top/mendes-jv/libft?color=dark-green)
-![Last commit](https://img.shields.io/github/last-commit/mendes-jv/libft?color=dark-green)
+![License](https://img.shields.io/github/license/RogerioLS/Libft-42sp?color=dark-green)
+![Code size in bytes](https://img.shields.io/github/languages/code-size/RogerioLS/Libft-42sp?color=dark-green)
+![Top language](https://img.shields.io/github/languages/top/RogerioLS/Libft-42sp?color=dark-green)
+![Last commit](https://img.shields.io/github/last-commit/RogerioLS/Libft-42sp?color=dark-green)
+![Repo size](https://img.shields.io/github/repo-size/RogerioLS/Libft-42sp)
+![Languages](https://img.shields.io/github/languages/count/RogerioLS/Libft-42sp?color=red
+)
+
 </div>
 
 ---
