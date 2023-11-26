@@ -12,6 +12,7 @@
 ![Repo size](https://img.shields.io/github/repo-size/RogerioLS/Libft-42sp)
 ![Languages](https://img.shields.io/github/languages/count/RogerioLS/Libft-42sp?color=red)
 ![Lines Of Code](https://tokei.rs/b1/github/RogerioLS/Libft-42sp?category=code)
+![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/RogerioLS/Libft-42sp%2Fsources?label=files%20sources&color=8602b1)
 ![Discord](https://img.shields.io/discord/1114673462859006044?label=testemunhas%20de%20vim&color=ffbe3a)
 
 </div>
