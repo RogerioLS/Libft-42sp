@@ -10,8 +10,8 @@
 ![Top language](https://img.shields.io/github/languages/top/RogerioLS/Libft-42sp?color=dark-green)
 ![Last commit](https://img.shields.io/github/last-commit/RogerioLS/Libft-42sp?color=dark-green)
 ![Repo size](https://img.shields.io/github/repo-size/RogerioLS/Libft-42sp)
-![Languages](https://img.shields.io/github/languages/count/RogerioLS/Libft-42sp?color=red
-)
+![Languages](https://img.shields.io/github/languages/count/RogerioLS/Libft-42sp?color=red)
+![Lines Of Code](https://tokei.rs/b1/github/RogerioLS/Libft-42sp?category=code)
 ![Discord](https://img.shields.io/discord/1114673462859006044?label=testemunhas%20de%20vim&color=ffbe3a)
 
 </div>
