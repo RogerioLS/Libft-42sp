@@ -2,6 +2,7 @@
 
 # :books: Libft | 42 SP
 
+[![Norminette and Build](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml/badge.svg)](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml)
 ![Static Badge](https://img.shields.io/badge/LIBFT--blue)
 ![42 São Paulo](https://img.shields.io/badge/42-SP-1E2952)
 ![License](https://img.shields.io/github/license/RogerioLS/Libft-42sp?color=dark-green)
@@ -11,6 +12,7 @@
 ![Repo size](https://img.shields.io/github/repo-size/RogerioLS/Libft-42sp)
 ![Languages](https://img.shields.io/github/languages/count/RogerioLS/Libft-42sp?color=red
 )
+![Discord](https://img.shields.io/discord/1114673462859006044?label=testemunhas%20de%20vim&color=ffbe3a)
 
 </div>
 
