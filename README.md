@@ -3,7 +3,7 @@
 # :books: Libft | 42 SP
 
 [![Norminette and Build](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml/badge.svg)](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml)
-![Static Badge](https://img.shields.io/badge/LIBFT--blue)
+![Static Badge](https://img.shields.io/badge/LIBFT-42-blue)
 ![42 São Paulo](https://img.shields.io/badge/42-SP-1E2952)
 ![License](https://img.shields.io/github/license/RogerioLS/Libft-42sp?color=dark-green)
 ![Code size in bytes](https://img.shields.io/github/languages/code-size/RogerioLS/Libft-42sp?color=dark-green)
