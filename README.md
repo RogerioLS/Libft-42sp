@@ -11,7 +11,6 @@
 ![Last commit](https://custom-icon-badges.demolab.com/github/last-commit/RogerioLS/Libft-42sp?logo=history&color=dark-green)
 ![Repo size](https://custom-icon-badges.demolab.com/github/repo-size/RogerioLS/Libft-42sp?logo=database)
 ![Languages](https://custom-icon-badges.demolab.com/github/languages/count/RogerioLS/Libft-42sp?logo=command-palette&color=red)
-[![Lines Of Code](https://tokei.rs/b1/github/RogerioLS/Libft-42sp?category=code)](https://github.com/XAMPPRocky/tokei)
 ![GitHub repo file count (file type)](https://custom-icon-badges.demolab.com/github/directory-file-count/RogerioLS/Libft-42sp%2Fsources?logo=file&label=files%20sources&color=8602b1)
 ![Discord](https://custom-icon-badges.demolab.com/discord/1114673462859006044?&logo=comments&label=testemunhas%20de%20vim&color=ffbe3a)
 </div>
@@ -22,7 +21,6 @@
 
 ![](https://game.42sp.org.br/static/assets/achievements/libftm.png)
 
-[![roglopes's 42 Libft Score](https://badge42.vercel.app/api/v2/clljwl4dk005408mn48ta77wy/project/3196037)](https://github.com/JaeSeoKim/badge42)
 </div>
 
 - Actual Status : finished.
