@@ -3,6 +3,7 @@
 # :books: Libft | 42 SP
 
 [![Norminette and Build](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml/badge.svg)](https://github.com/RogerioLS/Libft-42sp/actions/workflows/main.yml)
+[![Build](https://github.com/RogerioLS/Libft-42sp/actions/workflows/build.yml/badge.svg)](https://github.com/RogerioLS/Libft-42sp/actions/workflows/build.yml)
 ![Static Badge](https://custom-icon-badges.demolab.com/badge/LIBFT-42-blue?logo=repo)
 ![42 São Paulo](https://custom-icon-badges.demolab.com/badge/42-SP-1E2952)
 ![License](https://custom-icon-badges.demolab.com/github/license/RogerioLS/Libft-42sp?logo=law&color=dark-green)
