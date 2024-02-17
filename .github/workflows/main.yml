@@ -1,10 +1,5 @@
 name: Norminette and Build
-on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '00 12 */15 * *'
+on: [push, pull_request]
 
 jobs:
   norminette:
