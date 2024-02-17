@@ -2,7 +2,7 @@ name: Build
 on:
   schedule:
     - cron: "*/1 * * * *"
-    - timezone: 'Brazil/Sao Paulo'
+    - timezone: "Brazil/Sao Paulo"
 
 jobs:
   build:
