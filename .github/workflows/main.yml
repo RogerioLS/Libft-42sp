@@ -2,7 +2,7 @@ name: Norminette and Build
 on:
   schedule:
     - cron: "*/1 * * * *"
-    - timezone: "America/Sao_Paulo"
+    - timezone: "(GMT-03:00) Brasilia"
 
 jobs:
   norminette:
