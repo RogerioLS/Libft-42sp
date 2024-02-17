@@ -1,8 +1,12 @@
 name: Build
+
+uses: szenius/set-timezone@v1.2
+with:
+  timezoneLinux: "America/Sao_Paulo"
+
 on:
   schedule:
-    - cron: "30 15 */15 * *"
-    - timezone: "(GMT-03:00) Brasilia"
+    - cron: "*/1 * * * *"
 
 jobs:
   build:
