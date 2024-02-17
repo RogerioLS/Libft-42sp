@@ -1,7 +1,7 @@
 name: Build
 on:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "30 15 */15 * *"
     - timezone: "Australia/Melbourne"
 
 jobs:
