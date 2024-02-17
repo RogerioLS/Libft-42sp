@@ -1,20 +1,22 @@
 name: Build
 
-uses: szenius/set-timezone@v1.2
-with:
-  timezoneLinux: "America/Sao_Paulo"
-
 on:
   schedule:
     - cron: "*/1 * * * *"
 
 jobs:
-  build:
-      name: Build
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: make
-          run: make fclean re
-        - name: make bonus
-          run: make bonus 
+  test_linux_gmt8:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, ubuntu-20.04]
+    name: Test GMT +8 on Ubuntu
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set Timezone to +8 (With input)
+        uses: ./
+        with:
+          timezoneLinux: "Asia/Singapore"
+      - run: npm i
+      - run: npm run test
